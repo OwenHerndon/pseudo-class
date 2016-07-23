@@ -1,0 +1,21 @@
+body{
+	background: green;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	display: inline;
+}
+
+span{
+	display: block;
+	border: 1px solid black;
+	margin: 25px;
+}
+
+article:nth-child(2n+0){
+	border: 1px solid goldenrod;
+}
